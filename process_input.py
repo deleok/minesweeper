@@ -1,21 +1,41 @@
+"""
+Qibai Zhu
+"""
+
 from minesweeper import MineSweeper
 
 
 class ProcessInput:
     def __init__(self, file_name):
+        """
+        Open file that want to be processed,read all lines of strings in the file, content will be stored in the list
+        :param file_name: txt.file name
+        """
         with open(file_name) as f:
             self.__content_list = f.read().splitlines()
 
     def get_content_list(self):
+        """
+        Get content list
+        """
         return self.__content_list
 
     def get_row_and_col(self, number_str):
+        """
+        Parse the String into integer row and column
+        :param number_str: string of row and column
+        :return: row, column
+        """
         field_size = [int(num) for num in number_str.split()]
         row = field_size[0]
         col = field_size[1]
         return row, col
 
     def process_content(self):
+        """
+        Process the content from minesweeper_input.txt file, generate minesweeper and draw the hints numbers,
+        write the hints output into minesweeper_output.txt file
+        """
         global mine_field
         count_field = 0
         line = 0
