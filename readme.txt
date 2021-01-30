@@ -8,3 +8,5 @@ Kishan Vekaria
   - Shortcomings: My output file generates two blank lines at the end of output.
   
 Qibai Zhu
+  - Time to complete: 8 hours 
+  - Shortcomings: My output file generates two blank lines at the end of output.
