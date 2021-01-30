@@ -34,8 +34,6 @@ class ProcessInput:
         """
 
         field_size = [int(num) for num in number_str.split()]
-        # print("field size")
-        print(field_size)
         row = field_size[0]
         col = field_size[1]
         return row, col
@@ -46,7 +44,6 @@ class ProcessInput:
         write the hints output into minesweeper_output.txt file
         """
         global mine_field
-        # count_field = 0
         line = 0
 
         while line < len(content_list):
