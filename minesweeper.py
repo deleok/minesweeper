@@ -1,5 +1,8 @@
 """
 Qibai Zhu
+
+This MineSweeper is solely for creating object MineSweeper, to let the code be more clear.
+Please run process_input.py generate the result.
 """
 
 
