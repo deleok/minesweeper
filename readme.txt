@@ -1,7 +1,7 @@
 Team 4 Minesweeper
 
 Kara de Leon
-  - Time to complete: ~5 hours 
+  - Time to complete: ~5 hours (less time spent due to being sick)
   - Shortcomings: My individual solution produced '.' for some hints on the second board and had difficulty reading input from the console.
   
 Kishan Vekaria
