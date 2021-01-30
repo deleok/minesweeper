@@ -1,5 +1,8 @@
 """
 Qibai Zhu
+
+This ProcessInput program can read input from minesweeper_input.txt and
+write output into minesweeper_output.txt
 """
 
 from minesweeper import MineSweeper
