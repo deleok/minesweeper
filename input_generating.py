@@ -1,7 +1,7 @@
 """
 Qibai Zhu
 
-This input_generating file is used to generate the specified number of mine fields,
+This input_generating program is used to generate the specified number of mine fields (you can decide the number)
 and write into the minesweeper_input.txt file.
 """
 
